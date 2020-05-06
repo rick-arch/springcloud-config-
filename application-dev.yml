@@ -1,14 +1,2 @@
-server:
-  port: 80
-
-spring:
-  application:
-    name: cloud-consumer-consul-service
-  cloud:
-    consul:
-      #consul注册中心地址
-      host: localhost
-      port: 8500
-      discovery:
-        service-name: ${spring.application.name}
-
+config:
+    info:"master branch,springcloud-config/application-dev.yml version=1"
